@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+.main-wrapper{
+    background-color: aqua;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,#000000bb,#00000022, #000000bb),url('https://picsum.photos/id/33/1000');
+    background-repeat: no-repeat; /* ไม่เป็นกระเบื้อง */
+    background-size: cover; /* ยอมโดน crop เต็มตัว cover */
+    display: flex;
+    color: antiquewhite;
+    font-size: 60px;
+    justify-content: center; /* แนวนอน */
+    align-items: center;/* แนวตั้ง */
+
+}
